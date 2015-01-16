@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Light.NoTitleBar" />
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="DialogWindowTransparent" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@*android:color/transparent</item>
+    </style>
+    <style name="DialogFrame">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20.0dip</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="DialogTitle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">46.0dip</item>
+    </style>
+    <style name="DialogContent.Layout" parent="@style/DialogContent">
+        <item name="android:paddingTop">25.0dip</item>
+        <item name="android:paddingBottom">25.0dip</item>
+    </style>
+    <style name="DialogContent">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SeletableDialogItem">
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="DialogButton" parent="@style/SeletableDialogItem">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="DialogListItem" parent="@style/SeletableDialogItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="DialogCheckBoxItem" parent="@style/SeletableDialogItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="signsText">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="brithday_tv_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/d</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#ffcfcfcf</item>
+    </style>
+    <style name="user_sign_tv">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+    </style>
+</resources>

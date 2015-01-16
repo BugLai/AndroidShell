@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:textColor="@color/a" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="未到账余额" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="未到账余额指您已获得的但未能马上提现的现金，完成对应试用流程即可到账" />
+        <Button android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/btn_disableAccountDialog_ok" android:background="@drawable/bg_btn_dialog_ok" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:text="明白了" />
+    </LinearLayout>
+</RelativeLayout>

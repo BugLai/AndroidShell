@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_step2success_content" android:background="@drawable/shape_state_success" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/a" android:gravity="center_vertical" android:id="@id/tv_step2success_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2.原价购买并提交订单号" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/i" android:gravity="center_vertical" android:id="@id/tv_step2success_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="审核已通过，请留意快递并及时完成下一步骤" android:layout_below="@id/tv_step2success_title" />
+    </RelativeLayout>
+    <View android:background="@color/g" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip" android:layout_alignTop="@id/layout_step2success_content" android:layout_alignBottom="@id/layout_step2success_content" />
+    <ImageView android:layout_width="12.0dip" android:layout_height="44.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/img_step_state_done" />
+    <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="23.0dip" android:src="@drawable/img_angle_white" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#ff87cefa</color>
+    <color name="color_text_selected">#ff2b2c30</color>
+    <color name="color_text_normal">#ff626262</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="com_sina_weibo_sdk_loginview_text_color">#ffffffff</color>
+    <color name="a">#ff54545f</color>
+    <color name="b">#ff666672</color>
+    <color name="c">#ff61616d</color>
+    <color name="d">#ffef4356</color>
+    <color name="e">#fffc5265</color>
+    <color name="f">#ffd01f33</color>
+    <color name="g">#ffd2d1d6</color>
+    <color name="h">#fff0f0f0</color>
+    <color name="i">#ff99999f</color>
+    <color name="j">#ff81cd28</color>
+    <color name="k">#ff5dbc24</color>
+    <color name="l">#ffa1d53c</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_gray_light">#33999999</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_gray_bright">#33cccccc</color>
+    <color name="umeng_fb_color_btn_normal">#ff333333</color>
+    <color name="umeng_fb_color_btn_pressed">#ff1495f7</color>
+</resources>

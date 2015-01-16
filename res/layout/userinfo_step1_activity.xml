@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relative_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/nnyb" android:layout_width="wrap_content" android:layout_height="54.0dip" android:src="@drawable/img_nnyb" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/man_femal" android:layout_width="wrap_content" android:layout_height="108.0dip" android:layout_marginTop="84.0dip">
+            <ImageView android:id="@id/man" android:layout_width="108.0dip" android:layout_height="108.0dip" android:src="@drawable/ic_nan" />
+            <ImageView android:id="@id/femal" android:layout_width="108.0dip" android:layout_height="108.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_nv" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="132.0dip">
+            <ImageView android:id="@id/dot_left_1" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/img_indicator_sel" />
+            <ImageView android:id="@id/dot_center_1" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="4.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/img_indicator_nor" />
+            <ImageView android:id="@id/dot_right_1" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/img_indicator_nor" />
+        </LinearLayout>
+        <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/bt_next_step1" android:background="@drawable/sign_bt1" android:layout_width="160.0dip" android:layout_height="40.0dip" android:text="下一步" />
+    </LinearLayout>
+</RelativeLayout>

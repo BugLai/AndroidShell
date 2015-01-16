@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_titlebar" layout="@layout/common_titlebar_left_activity" />
+    <ScrollView android:id="@id/scroll_mast_read" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_titlebar">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/mast_read_linear1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/mast_read_relative1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/mast_read_title_1" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="1.声明" />
+                    <ImageView android:id="@id/mast_read_expand1" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/mast_read_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/statement" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/mast_read_linear2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/mast_read_relative2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/mast_read_title_2" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="2.用户须知" />
+                    <ImageView android:id="@id/mast_read_expand2" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/mast_read_content2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mastknow" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/mast_read_linear3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/mast_read_relative3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/mast_read_title_3" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="3.严重违规行为" />
+                    <ImageView android:id="@id/mast_read_expand3" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/mast_read_content3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/serious" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.android.shihuo.view.MyListView android:gravity="center" android:id="@id/lv_msgactivity" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <include layout="@layout/layout_empty" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

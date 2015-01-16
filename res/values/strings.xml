@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">取消</string>
+    <string name="finish">完成</string>
+    <string name="sharing">分享操作正在后台进行…</string>
+    <string name="share_to">分享到</string>
+    <string name="share">分享</string>
+    <string name="multi_share">图文分享</string>
+    <string name="share_completed">分享成功</string>
+    <string name="share_canceled">分享已取消</string>
+    <string name="select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="list_friends">%s的朋友</string>
+    <string name="share_failed">分享失败</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="refreshing">刷新中…</string>
+    <string name="shake2share">摇晃手机！</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="website">http://www.shareSDK.cn</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="qzone">QQ空间</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="renren">人人网</string>
+    <string name="kaixin">开心网</string>
+    <string name="email">邮件</string>
+    <string name="shortmessage">信息</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="douban">豆瓣</string>
+    <string name="youdao">有道云笔记</string>
+    <string name="evernote">印象笔记</string>
+    <string name="linkedin">领英</string>
+    <string name="googleplus">Google+</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="qq">QQ</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="flickr">Flickr</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="vkontakte">VK</string>
+    <string name="instagram">Instagram</string>
+    <string name="yixin">易信</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="mingdao">明道</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kakaostory">KakaoStory</string>
+    <string name="line">Line</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="share_to_qq">分享到QQ</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qzone_default">来自%s的分享</string>
+    <string name="use_login_button">请改用“登录”按钮</string>
+    <string name="app_name">试货</string>
+    <string name="drop_dowm">下拉刷新</string>
+    <string name="release_update">松开刷新</string>
+    <string name="loading">正在加载</string>
+    <string name="seen_more">更多</string>
+    <string name="com_sina_weibo_sdk_login_with_weibo_account">用微博登录</string>
+    <string name="com_sina_weibo_sdk_login">登录</string>
+    <string name="com_sina_weibo_sdk_logout">注销</string>
+    <string name="process1content">仔细阅读“申请要求”、“活动详情”的内容，符合要求者即可申请，没人每天申请次数达到限制则不可再次申请...</string>
+    <string name="process1content_more">"仔细阅读“申请要求”、“活动详情”的内容，符合要求者即可申请，没人每天申请次数达到限制则不可再次申请
+
+* 申请结果会在2个工作日内给出，请注意查看
+* 每件商品只可申请一次，申请失败将失去该商品试用资格
+* 每天每名用户可申请3次试用"</string>
+    <string name="process2content">到商家店铺原价购买该商品，复制所得订单号，在“我的试用”中提交订单号并耐心等待收货...</string>
+    <string name="process2content_more">"到商家店铺原价购买该商品，复制所得订单号，在“我的试用”中提交订单号并耐心等待收货
+
+* 试用资格审核通过后需尽快完成购买，1天内未提交订单号视为放弃试用资格；
+* 提交订单号后，商家将在两天内审核你的订单号，确认无误即马上发货；
+* 若订单号审核失败，请根据提示的联系方式联系商家，协商修改后即可通过审核；
+* 与商家联系时禁止提及有关试用的任何情况，违者取消资格，冻结返款；
+* 购买前需确认商品是否与“试用商品”一致，未确认清楚导致商品购买错误概不负责。"</string>
+    <string name="process3content">进入第三方平台确认收货，上传3-5张试用照片并五星好评，内容越详细越快领取返款...</string>
+    <string name="process3content_more">"进入第三方平台确认收货，上传3-5张试用照片并五星好评，内容越详细越快领取返款
+
+* 收到商品后请立即“确认收货并好评”，提交订单号后10天内未确认收货则视为放弃试用资格；
+* 试用照片必须为本人的真实试用图，不可重复上传相同的照片；
+* 恶意差评，人身攻击等情况将取消试用资格，冻结返款。"</string>
+    <string name="process4content">完成以上步骤，即可申请返款，10个工作日内发布审核结果...</string>
+    <string name="process4content_more">"完成以上步骤，即可申请返款，10个工作日内发布审核结果
+
+* 若未完成好评便申请返款会因条件不足而审核失败，导致无法返款；
+* 订单号错误、未给合理评价或给予恶意评价等情况将会导致审核失败；
+* 若申请失败，每件商品有一次申诉机会，按提示修改好错误处并提交申诉理由即可。"</string>
+    <string name="process5content">试用成功获得的现金余额可兑现至你的支付宝，也可兑换各种优惠劵...</string>
+    <string name="process5content_more">"试用成功获得的现金余额可兑现至你的支付宝，也可兑换各种优惠劵
+
+* 余额兑现只可兑现整数，无须手续费
+* 提交提现申请后，现金会在1-2个工作日打入你的支付宝，请耐心等待
+* 若超过2个工作日未收到支付宝现金，请通过“意见反馈”联系我们。"</string>
+    <string name="qa1">试货所有试用商品由合作商家提供，通过免费试用商家有如下好处...</string>
+    <string name="qa1_more">"试货所有试用商品由合作商家提供，通过免费试用商家有如下好处:
+
+* 可在淘宝天猫上快速累积销量和评价；
+* 让消费者免费体验、了解产品，从而促进消费者正常购买；
+* 拓开试用商品以及整个品牌的知名度，促进产品的长期销售；
+* 通过试用让产品在消费者间进行口碑传播，扩大产品影响力。"</string>
+    <string name="qa2">商家提供免费的试用商品，但同时也喜欢获得相应的回报...</string>
+    <string name="qa2_more">"商家提供免费的试用商品，但同时也喜欢获得相应的回报：
+
+* 获得用户的实际购买，积累商品销量，为其他消费者提供销量引导；
+* 快速的为试用商品积累商品评价；
+* 为防止用户领取试用商品后不给予合理评价（或给予恶意评价），故需要由用户先下单购买，然后再由平台返款，保证用户给予商品积极客观的评价。"</string>
+    <string name="qa3">* 所有商家发布试用活动前，都需要提供活动担保金给试货，否则活动无法开始...</string>
+    <string name="qa3_more">"* 所有商家发布试用活动前，都需要提供活动担保金给试货，否则活动无法开始；
+* 如果商家以各种原因不退还用户购买费用，用户可通过“意见反馈”联系我们，我们将从担保金中返款给你。"</string>
+    <string name="qa4">因为免费商品数量有限，所以每个步骤都会有时间限制，若你不完成后续步骤...</string>
+    <string name="qa4_more">"因为免费商品数量有限，所以每个步骤都会有时间限制，若你不完成后续步骤，将视为放弃试用名额，该名额将被释放出来给予其他用户。
+每件商品试用申请成功后，请尽快提交订单号、后续的到货确认以及五星好评，越快完成越快拿到返款。"</string>
+    <string name="qa5">试用属于商家亏本推广活动，因此商家们都希望能获得较好的推广效果...</string>
+    <string name="qa5_more">"试用属于商家亏本推广活动，因此商家们都希望能获得较好的推广效果
+
+* 禁止购买商品时与商家提及“试用”“返款”“审核”等关键词
+* 商品到货后严禁向商家催返款
+* 严禁未完成五星评价便申请返款
+* 严禁恶意差评"</string>
+    <string name="qa6">商家参加“免费试用”活动，将会转入与商品等价的保证金进入【试货】平台...</string>
+    <string name="qa6_more">商家参加“免费试用”活动，将会转入与商品等价的保证金进入【试货】平台作为第三方担保金，保证用户在正确执行试用流程后可拿到应得返款</string>
+    <string name="qa7">无论什么问题，请找客服妹子...</string>
+    <string name="qa7_more">"无论什么问题，请找客服妹子
+
+* 可加入试货会员群：62867379
+
+* 客服代表小和：2393117787
+
+* 客服代表小宁：2561629446
+
+* 应用出现问题可直接通过“意见反馈”将问题提交给我们"</string>
+    <string name="statement">试货所有试用产品均由合作商家直接提供，杜绝一切非正规渠道来源的试用产品...</string>
+    <string name="statement_more">"试货所有试用产品均由合作商家直接提供，杜绝一切非正规渠道来源的试用产品
+
+同时，【试货】仅为用户提供商品试用渠道及信息交流平台，产品的使用效果因产品本身及用户的个体差异而有所不同。若用户在产品试用过程中有任何不适，请即时停用并直接与试用品提供商联系。因试用品提供商的产品和服务导致的任何瑕疵、过错、责任和纠纷，【试货】不承担任何法律责任。"</string>
+    <string name="mastknow">每件试用商品商家都会有相应的要求，请仔细阅读并按步骤完成...</string>
+    <string name="mastknow_more">"每件试用商品商家都会有相应的要求，请仔细阅读并按步骤完成
+
+* 若因不按要求执行导致无法返款，需自行负责
+
+* 原价购买时需仔细核对商品及价格信息是否与试用信息一致，若不一致可通过联系客服反馈情况，此时请勿下单
+
+* 若用户参与商家的代拍、代刷等违规行为，由此造成的所有损失用户自行承担
+
+* 在下单时，不允许利用淘宝客链接下单购买赚取佣金
+
+* 在下单购买时，不允许使用淘宝客链接、优惠券、天猫积分、淘金币、红包、集分宝等，一旦发现将导致试用流程终止，取消试用资格"</string>
+    <string name="serious">触犯以下违规行为，视情况轻重程度屏蔽账号对应时长，严重者永久拉黑，冻结返款...</string>
+    <string name="serious_more">"触犯以下违规行为，视情况轻重程度屏蔽账号对应时长，严重者永久拉黑，冻结返款
+
+* 同一个【试货】用户不能使用多个帐号参与同一个试用活动，一旦发现出现此类违规行为，同时取消该活动用户所有帐号的试用资格，所造成的损失用户自行承担。
+
+* 用户不得私自联系商家提出无理要求，如要求获得试用资格或质问商家为何不给予通过试用资格，一经发现，取消该资格并屏蔽账号30天"</string>
+    <string name="toast_logout">已退出登录</string>
+    <string name="text_empty">本页面暂无数据</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_download_notification_prefix">Downloading:</string>
+    <string name="umeng_common_pause_notification_prefix">Pause:</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_download_failed">Download Failed!</string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMUpdateTitle">New version found</string>
+    <string name="UMNewVersion">Latest version:</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateSize">Update size:</string>
+    <string name="UMTargetSize">Target size:</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMUpdateCheck">2.4.2.20140520</string>
+    <string name="umeng_fb_back">Back</string>
+    <string name="umeng_fb_contact_info">Contact Info</string>
+    <string name="umeng_fb_contact_info_hint">Email, msn, gtalk, or whatever we can find you.</string>
+    <string name="umeng_fb_contact_title">Contact</string>
+    <string name="umeng_fb_contact_update_at">Updated at</string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">You received %d new replies from the app developer.</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">New reply: %s</string>
+    <string name="umeng_fb_notification_ticker_text">Got new reply</string>
+    <string name="umeng_fb_powered_by">Powered by</string>
+    <string name="umeng_fb_reply_content_default">Your precious feedback are appriciated.</string>
+    <string name="umeng_fb_reply_content_hint">I want to tell</string>
+    <string name="umeng_fb_reply_date_default">2013-3-12 13:24:00</string>
+    <string name="umeng_fb_send">Send</string>
+    <string name="umeng_fb_title">Feedback</string>
+</resources>

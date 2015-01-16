@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_step3edit_content" android:background="@drawable/shape_state_success" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/a" android:gravity="center_vertical" android:id="@id/tv_step3edit_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3.确认收货并晒图好评" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/i" android:gravity="center_vertical" android:id="@id/tv_step3edit_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="收到商品后，通过下方按钮进入第三方确认收货，并对该商品晒图好评" android:layout_below="@id/tv_step3edit_title" />
+        <ImageView android:id="@id/iv_mytrydetailactivity_step3close" android:background="@drawable/bg_pressed" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/ic_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_mytrydetailactivity_edit_evaluate" android:background="@drawable/bg_btn_mytrydetailactivity_step" android:layout_width="116.0dip" android:layout_height="28.0dip" android:layout_marginTop="8.0dip" android:text="确认并评价" android:layout_below="@id/tv_step3edit_content" />
+    </RelativeLayout>
+    <View android:background="@color/g" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip" android:layout_alignTop="@id/layout_step3edit_content" android:layout_alignBottom="@id/layout_step3edit_content" />
+    <ImageView android:layout_width="12.0dip" android:layout_height="44.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/img_step_state_done" />
+    <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="23.0dip" android:src="@drawable/img_angle_white" />
+</RelativeLayout>

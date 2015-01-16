@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avatar_unknow" />
+    <Button android:textSize="18.0dip" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/btn_login" android:background="@drawable/bg_btn_login2" android:layout_width="144.0dip" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:text="登录" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/i" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="80.0dip" android:text="需要登录才可查看哈" />
+</LinearLayout>

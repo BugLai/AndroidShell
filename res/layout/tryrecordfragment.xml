@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.shihuo.view.PullDownListView android:id="@id/layout_tryrecordfirstfragment_list" android:background="@*android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffe1e2e6" android:dividerHeight="0.25dip" />
+    </com.android.shihuo.view.PullDownListView>
+    <include layout="@layout/layout_empty" />
+</RelativeLayout>

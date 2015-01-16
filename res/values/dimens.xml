@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding">12.0dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_left">12.0dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_right">16.0dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_top">6.0dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_padding_bottom">6.0dip</dimen>
+    <dimen name="com_sina_weibo_sdk_loginview_compound_drawable_padding">12.0dip</dimen>
+    <dimen name="slidingmenu_offset">120.0dip</dimen>
+    <dimen name="shadow_width">5.0dip</dimen>
+    <dimen name="updatebar_height">62.0dip</dimen>
+    <dimen name="updatebar_content_height">60.0dip</dimen>
+    <dimen name="updatebar_padding">10.0dip</dimen>
+</resources>

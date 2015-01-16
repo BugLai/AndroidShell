@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/layout_titlebar" layout="@layout/common_titlebar_fragment" />
+        <WebView android:id="@id/wv_homesecondfragment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include android:id="@id/layout_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/common_login" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_navigator" android:background="@drawable/shape_browser_tool" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:gravity="center" android:id="@id/btn_webview_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/bg_return" android:text="返回" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_divider" />
+        <ImageView android:gravity="center" android:id="@id/btn_webview_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_refresh" android:text="刷新" />
+    </LinearLayout>
+</RelativeLayout>

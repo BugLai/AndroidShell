@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.shihuo.view.PullDownListView android:id="@id/layout_mytryfragment_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_empty">
+        <ListView android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffe1e2e6" android:dividerHeight="0.25dip" />
+    </com.android.shihuo.view.PullDownListView>
+    <include android:id="@id/layout_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/common_login" />
+    <include android:id="@id/layout_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/common_layout_empty" />
+</RelativeLayout>

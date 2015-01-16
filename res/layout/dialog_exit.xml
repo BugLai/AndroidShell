@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:textColor="@color/a" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="亲，你要退出啦！" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="20.0dip">
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_exitdialog_cancle" android:background="@drawable/bg_btn_dialog_cancle" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="不是" android:layout_weight="1.0" />
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_exitdialog_ok" android:background="@drawable/bg_btn_dialog_ok" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:text="是的" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

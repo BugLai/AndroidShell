@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_titlebar" layout="@layout/common_titlebar_left_activity" />
+    <ScrollView android:id="@id/scroll_qa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_titlebar">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/qa_linear1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/qa_relative1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/qa_title_1" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="1.免费商品怎么来的？" />
+                    <ImageView android:id="@id/qa_expand1" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/qa_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qa1" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/qa_linear2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/qa_relative2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/qa_title_2" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="2.为何需要先下单购买再返款？" />
+                    <ImageView android:id="@id/qa_expand2" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/qa_content2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qa2" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/qa_linear3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/qa_relative3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/qa_title_3" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="3.下单购买后不返款怎么办？" />
+                    <ImageView android:id="@id/qa_expand3" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/qa_content3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qa3" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/qa_linear4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/qa_relative4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/qa_title_4" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="4.申请试用商品是否有时间限制？" />
+                    <ImageView android:id="@id/qa_expand4" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/qa_content4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qa4" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/qa_linear5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/qa_relative5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/qa_title_5" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="5.试用申请过程中的禁止操作" />
+                    <ImageView android:id="@id/qa_expand5" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/qa_content5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qa5" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/qa_linear6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/qa_relative6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/qa_title_6" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="6.保证金是什么" />
+                    <ImageView android:id="@id/qa_expand6" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/qa_content6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qa6" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/qa_linear7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/qa_relative7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/qa_title_7" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="14.0dip" android:text="7.如何联系客服" />
+                    <ImageView android:id="@id/qa_expand7" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_fold" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/qa_content7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qa7" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.android.shihuo.view.MyListView android:gravity="center" android:id="@id/lv_msgactivity" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="50.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/i" android:gravity="center" android:layout_width="wrap_content" android:layout_height="16.0dip" android:text="@string/text_empty" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/i" android:gravity="center" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:text="(´・ω・`)" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

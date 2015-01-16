@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_step20_content" android:background="@drawable/shape_state_undo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/a" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2.原价购买商品并提交订单号" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/i" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="通过“去购买”按钮原价购买本商品，获取该商品订单号，返回填写提交订单号" android:singleLine="true" />
+    </LinearLayout>
+    <View android:background="@color/g" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip" android:layout_alignTop="@id/layout_step20_content" android:layout_alignBottom="@id/layout_step20_content" />
+    <ImageView android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/img_step_state_locked" />
+</RelativeLayout>

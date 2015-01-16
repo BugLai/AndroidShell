@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_titlebar" layout="@layout/common_titlebar_left_activity" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_msgdetail" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layout_titlebar">
+        <RelativeLayout android:id="@id/relayout_title" android:layout_width="fill_parent" android:layout_height="24.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/msgdetail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="消息标题" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12:00" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/msg_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="很多消息很多消息很多消息很多消息很多消息息多消息很多消息很多消息很多消息很多消息很多消息很多消息很多消息" android:lineSpacingExtra="2.0dip" />
+    </LinearLayout>
+</RelativeLayout>

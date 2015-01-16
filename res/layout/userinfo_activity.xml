@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.android.shihuo">
+    <include android:id="@id/layout_titlebar" layout="@layout/common_titlebar_left_activity" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_titlebar">
+        <ScrollView android:background="@color/h" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/layout_banner_top" android:background="@drawable/img_banner_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.android.shihuo.view.CircleImageView android:id="@id/iv_userinfo_avatar" android:layout_width="88.0dip" android:layout_height="88.0dip" android:src="@drawable/avatar_test" android:layout_centerInParent="true" app:border_width="4.0dip" app:border_color="@color/white" xmlns:app="http://schemas.android.com/apk/res-auto" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/img_banner_bottom" android:background="@drawable/img_banner_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/tv_userinfo_tab1" android:background="@drawable/shape_usersign_tv" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginRight="16.0dip" android:text="宅女" android:layout_toLeftOf="@id/tv_userinfo_tab2" android:layout_centerVertical="true" style="@style/user_sign_tv" />
+                    <TextView android:id="@id/tv_userinfo_tab2" android:background="@drawable/shape_usersign_tv" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="腐女" android:layout_centerInParent="true" style="@style/user_sign_tv" />
+                    <TextView android:id="@id/tv_userinfo_tab3" android:background="@drawable/shape_usersign_tv" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="16.0dip" android:text="剩女" android:layout_toRightOf="@id/tv_userinfo_tab2" android:layout_centerVertical="true" style="@style/user_sign_tv" />
+                </RelativeLayout>
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+                <RelativeLayout android:id="@id/layout_user_id" android:background="@drawable/bg_layout" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                    <ImageView android:id="@id/ic_user_id" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_user_id" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/a" android:id="@id/tv_userinfo_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="昵称" android:layout_toRightOf="@id/ic_user_id" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+                <RelativeLayout android:id="@id/layout_user_constellation" android:background="@drawable/bg_layout" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                    <ImageView android:id="@id/ic_constellation" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_user_sign" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/a" android:id="@id/tv_userinfo_constellation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="星座" android:layout_toRightOf="@id/ic_constellation" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <RelativeLayout android:id="@id/layout_userinfo_phone" android:background="@drawable/bg_layout" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                    <ImageView android:id="@id/ic_user_phone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_user_phone" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/a" android:id="@id/tv_userinfoactivity_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="未绑定手机" android:layout_toRightOf="@id/ic_user_phone" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <RelativeLayout android:id="@id/layout_userinfo_taobao" android:background="@drawable/bg_layout" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                    <ImageView android:id="@id/ic_user_taobao" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_user_taobao" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/a" android:id="@id/tv_userinfoactivity_taobao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="未绑定淘宝" android:layout_toRightOf="@id/ic_user_taobao" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

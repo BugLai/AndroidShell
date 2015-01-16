@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_titlebar" layout="@layout/common_titlebar_left_activity" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_container" android:background="@color/h" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_titlebar">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.android.shihuo.view.MyListView android:gravity="center" android:id="@id/lv_msgactivity" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <include layout="@layout/layout_empty" />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

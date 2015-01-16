@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_titlebar" layout="@layout/common_titlebar_fragment" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_titlebar">
+        <ScrollView android:background="@color/h" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/layout_usercenterfragment_login" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:id="@id/layout_usercenterfragment_user" android:background="@drawable/bg_layout" android:padding="16.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/iv_usercenterfragment_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/avatar_unknow" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxWidth="56.0dip" android:maxHeight="56.0dip" android:layout_centerVertical="true" />
+                            <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/tv_usercenterfragment_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户名" android:layout_toRightOf="@id/iv_usercenterfragment_avatar" />
+                            <LinearLayout android:orientation="horizontal" android:id="@id/layout_usercenterfragment_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_usercenterfragment_avatar" android:layout_alignParentBottom="true">
+                                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/tv_usercenterfragment_tab1" android:background="@drawable/shape_tag1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/tv_usercenterfragment_tab2" android:background="@drawable/shape_tag2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+                                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/tv_usercenterfragment_tab3" android:background="@drawable/shape_tag1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+                            </LinearLayout>
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_big" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/layout_usercenterfragment_money" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_below="@id/layout_usercenterfragment_user">
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/img_money_bg_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:textSize="10.0dip" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="余额" />
+                                <TextView android:textSize="24.0dip" android:textColor="@color/white" android:id="@id/tv_usercenterfragment_enableaccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="0元" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_usercenterfragment_notreceivedmoney" android:background="@drawable/bg_money_right" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <TextView android:textSize="10.0dip" android:textColor="@color/white" android:id="@id/tv_usercenterfragment_notreceivedmoney" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="未到账余额" android:layout_centerVertical="true" />
+                                    <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="7.0dip" android:src="@drawable/ic_ask" android:layout_toRightOf="@id/tv_usercenterfragment_notreceivedmoney" android:layout_centerVertical="true" />
+                                </RelativeLayout>
+                                <TextView android:textSize="24.0dip" android:textColor="@color/white" android:id="@id/tv_usercenterfragment_disableaccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="0元" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/layout_usercenterfragment_unlogin" android:background="@drawable/bg_unlogin" android:layout_width="fill_parent" android:layout_height="88.0dip">
+                        <Button android:textSize="18.0dip" android:textColor="@color/white" android:id="@id/btn_usercenterfragment_login" android:background="@drawable/bg_btn_login" android:layout_width="160.0dip" android:layout_height="40.0dip" android:text="登录" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+                <RelativeLayout android:id="@id/layout_usercenterfragment_record" android:background="@drawable/bg_layout" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                    <ImageView android:id="@id/iv_usercenterfragment_icon1" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_user_jyjl" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="交易记录" android:layout_toRightOf="@id/iv_usercenterfragment_icon1" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+                <RelativeLayout android:id="@id/layout_usercenterfragment_msg" android:background="@drawable/bg_layout" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                    <ImageView android:id="@id/iv_usercenterfragment_icon2" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_user_wdxx" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="我的消息" android:layout_toRightOf="@id/iv_usercenterfragment_icon2" android:layout_centerVertical="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

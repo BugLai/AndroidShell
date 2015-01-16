@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relative_main2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_step2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/ahfm" android:layout_width="wrap_content" android:layout_height="54.0dip" android:src="@drawable/img_ahfm" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/row1" android:layout_width="wrap_content" android:layout_height="60.0dip">
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_beauty" android:background="#ffff617b" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="爱美\n一族" style="@style/signsText" />
+                    <ImageView android:id="@id/love_beauty_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_digital" android:background="#ff77afcc" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="数码\n一族" style="@style/signsText" />
+                    <ImageView android:id="@id/love_digital_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_outside" android:background="#ffffbe23" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="户外\n一族" style="@style/signsText" />
+                    <ImageView android:id="@id/love_outside_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/row2" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="12.0dip">
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_sport" android:background="#ff53c514" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="运动\n一族" style="@style/signsText" />
+                    <ImageView android:id="@id/love_sport_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_pet" android:background="#fff2b78f" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="宠物\n一族" style="@style/signsText" />
+                    <ImageView android:id="@id/love_pet_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_home" android:background="#ffff7b23" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="居家\n主妇" style="@style/signsText" />
+                    <ImageView android:id="@id/love_home_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/row3" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="12.0dip">
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_muscle" android:background="#ff8ec900" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="健美\n一族" style="@style/signsText" />
+                    <ImageView android:id="@id/love_muscle_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_pic" android:background="#ff44c4e9" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="摄影\n一族" style="@style/signsText" />
+                    <ImageView android:id="@id/love_pic_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_flower" android:background="#ffff645c" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="花卉\n一族" style="@style/signsText" />
+                    <ImageView android:id="@id/love_flower_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/row4" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="12.0dip">
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_eating" android:background="#fff1b636" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="吃货" style="@style/signsText" />
+                    <ImageView android:id="@id/love_eating_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_collection" android:background="#ffc28f13" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="收藏家" style="@style/signsText" />
+                    <ImageView android:id="@id/love_collection_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_centerInParent="true">
+                    <TextView android:id="@id/love_other" android:background="#ff7699ff" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="孕妇\n婴儿" style="@style/signsText" />
+                    <ImageView android:id="@id/love_other_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_tick_small" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <ImageView android:id="@id/dot_left_2" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/img_indicator_nor" />
+            <ImageView android:id="@id/dot_center_2" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="4.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/img_indicator_sel" />
+            <ImageView android:id="@id/dot_right_2" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/img_indicator_nor" />
+        </LinearLayout>
+        <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/bt_next_step2" android:background="@drawable/sign_bt1" android:layout_width="160.0dip" android:layout_height="40.0dip" android:text="下一步" />
+    </LinearLayout>
+</RelativeLayout>

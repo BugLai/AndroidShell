@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_titlebar" layout="@layout/common_titlebar_fragment" />
+    <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+    <RelativeLayout android:id="@id/layout_helpcenterfragment_1" android:background="@drawable/bg_list_banner" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:id="@id/iv_helpcenterfragment_1" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_more_sylc" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="试用流程" android:layout_toRightOf="@id/iv_helpcenterfragment_1" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+    <RelativeLayout android:id="@id/layout_helpcenterfragment_2" android:background="@drawable/bg_list_banner" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:id="@id/iv_helpcenterfragment_2" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_more_bdgz" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="必读规则" android:layout_toRightOf="@id/iv_helpcenterfragment_2" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+    <RelativeLayout android:id="@id/layout_helpcenterfragment_3" android:background="@drawable/bg_list_banner" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:id="@id/iv_helpcenterfragment_3" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_more_ywjd" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="疑问解答" android:layout_toRightOf="@id/iv_helpcenterfragment_3" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="12.0dip" />
+    <RelativeLayout android:id="@id/layout_helpcenterfragment_4" android:background="@drawable/bg_list_banner" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:id="@id/iv_helpcenterfragment_4" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_more_yjfk" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="意见反馈" android:layout_toRightOf="@id/iv_helpcenterfragment_4" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" />
+    <RelativeLayout android:id="@id/layout_helpcenterfragment_5" android:background="@drawable/bg_list_banner" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="8.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <ImageView android:id="@id/iv_helpcenterfragment_5" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_more_bbgx" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="版本更新" android:layout_toRightOf="@id/iv_helpcenterfragment_5" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_helpcenterfragment_right5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/a" android:id="@id/tv_helpcenterfragment_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:layout_toLeftOf="@id/iv_helpcenterfragment_right5" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <Button android:textSize="14.0sp" android:textColor="@color/a" android:layout_gravity="center_horizontal" android:id="@id/btn_helpcenterfragment_logout" android:background="@drawable/bg_btn_loginout" android:layout_width="144.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:text="退出登录" />
+</LinearLayout>

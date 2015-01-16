@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_step3doing_content" android:background="@drawable/shape_state_doing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3.确认收货并晒图好评" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="收到商品后，通过下方按钮进入第三方确认收货，并对该商品晒图好评" />
+        <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_mytrydetailactivity_evaluate" android:background="@drawable/bg_btn_mytrydetailactivity_step" android:layout_width="116.0dip" android:layout_height="28.0dip" android:layout_marginTop="8.0dip" android:text="确认并评价" />
+    </LinearLayout>
+    <View android:background="@color/g" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="17.0dip" android:layout_alignTop="@id/layout_step3doing_content" android:layout_alignBottom="@id/layout_step3doing_content" />
+    <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/img_step_state_doing" />
+    <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="23.0dip" android:src="@drawable/img_angle_grit" />
+</RelativeLayout>

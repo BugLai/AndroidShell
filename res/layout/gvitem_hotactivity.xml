@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:layout_width="168.0dip" android:layout_height="196.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_hotactivity_product" android:layout_width="160.0dip" android:layout_height="160.0dip" android:src="@drawable/img_default_300" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_below="@id/iv_hotactivity_product">
+        <TextView android:textSize="14.0sp" android:textColor="@color/d" android:id="@id/tv_hotactivity_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="¥99.0" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/i" android:id="@id/tv_hotactivity_over" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="剩余26" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

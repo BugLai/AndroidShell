@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/shape_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="24.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/a" android:layout_gravity="center_horizontal" android:id="@id/tv_applysuccessDialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="试用申请成功" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/tv_applysuccessDialog_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="1.您的试用申请已提交，审核结果将会在1-2个工作日内告知 \n2.您可在“我的试用”中查看申请动态\n3.请务必认真阅读“试用流程”\n4.您今天还能申请几件试用商品" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="20.0dip">
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_applysuccessDialog_tryprocess" android:background="@drawable/bg_btn_dialog_ok" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="试用流程" android:layout_weight="1.0" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_applysuccessDialog_mytry" android:background="@drawable/bg_btn_dialog_ok" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:text="我的试用" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/iv_applysuccessDialog_cancle" android:background="@drawable/bg_dialog_cancle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

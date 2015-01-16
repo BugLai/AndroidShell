@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="112.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_mytrydetailactivity_productImg" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/img_default_160" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="96.0dip" android:layout_marginRight="8.0dip" android:layout_toRightOf="@id/iv_mytrydetailactivity_productImg" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/a" android:id="@id/tv_mytrydetailactivity_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:singleLine="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/d" android:id="@id/tv_mytrydetailactivity_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_mytrydetailactivity_step" android:background="@drawable/shape_tv_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/d" android:gravity="right|center" android:id="@id/tv_mytrydetailactivity_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_mytrydetailactivity_cancel" android:background="@drawable/bg_pressed" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_cancel" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

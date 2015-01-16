@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/tv_textareaDialogApplyReason_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="申请理由：" />
+        <EditText android:textSize="14.0sp" android:textColor="@color/i" android:gravity="top" android:id="@id/et_textareaDialogApplyReason" android:background="@drawable/shape_dialog_edittext" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="8.0dip" android:hint="建议说明下您的网购情况或者试用经历" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/i" android:id="@id/tv_textareaDialogApplyReason_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="每人每天可申请次数有限，请慎重申请" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="8.0dip">
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_dialog_textareaDialogApplyReason_cancle" android:background="@drawable/bg_btn_dialog_cancle" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="取消" android:layout_weight="1.0" />
+            <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_dialog_textareaDialogApplyReason_ok" android:background="@drawable/bg_btn_dialog_ok" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:text="确定" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

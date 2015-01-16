@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@*android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_menufragment_user" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <ImageView android:id="@id/iv_menufragment_head" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/avatar_unknow" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/a" android:id="@id/tv_menufragment_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="未登录" android:layout_toRightOf="@id/iv_menufragment_head" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/v_divide" android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/layout_menufragment_user" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/v_divide">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/layout_menufragment_index" android:background="@drawable/bg_menufragment_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                <ImageView android:id="@id/iv_menufragment_indexicon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/bg_drawer_home" android:layout_centerVertical="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/bg_menufragment_tc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="首页" android:layout_toRightOf="@id/iv_menufragment_indexicon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_menufragment_gift" android:background="@drawable/bg_menufragment_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                <ImageView android:id="@id/iv_menufragment_gift" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/bg_drawer_gift" android:layout_centerVertical="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/bg_menufragment_tc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="余额兑现" android:layout_toRightOf="@id/iv_menufragment_gift" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_menufragment_usercenter" android:background="@drawable/bg_menufragment_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                <ImageView android:id="@id/iv_menufragment_usercentericon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/bg_drawer_user" android:layout_centerVertical="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/bg_menufragment_tc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="个人中心" android:layout_toRightOf="@id/iv_menufragment_usercentericon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_menufragment_help" android:background="@drawable/bg_menufragment_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                <ImageView android:id="@id/iv_menufragment_helpicon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/bg_drawer_help" android:layout_centerVertical="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/bg_menufragment_tc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="帮助中心" android:layout_toRightOf="@id/iv_menufragment_helpicon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

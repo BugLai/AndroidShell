@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_logout_content" android:background="@drawable/shape_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="24.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/a" android:layout_gravity="center_horizontal" android:id="@id/tv_logout_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="是否确认退出登录？" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="20.0dip">
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_logout_confirm" android:background="@drawable/bg_btn_dialog_ok" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="确定" android:layout_weight="1.0" />
+                <Button android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btn_logout_cancel" android:background="@drawable/bg_btn_dialog_ok" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:text="取消" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/iv_logout_cancel" android:background="@drawable/bg_dialog_cancle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

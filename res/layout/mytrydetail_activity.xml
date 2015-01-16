@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_titlebar_left_activity" />
+    <include android:id="@id/layout_mytrydetailactivity_head" android:clickable="true" layout="@layout/mytrydetailactivity_head" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/h" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/layout_mytrydetailactivity_step1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/step1_doing" android:visibility="gone" layout="@layout/step1_doing" />
+                <include android:id="@id/step1_fail" android:visibility="gone" layout="@layout/step1_fail" />
+                <include android:id="@id/step1_success" layout="@layout/step1_success" />
+            </RelativeLayout>
+            <View android:background="@color/g" android:layout_width="2.0dip" android:layout_height="8.0dip" android:layout_marginLeft="17.0dip" />
+            <RelativeLayout android:id="@id/layout_mytrydetailactivity_step2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/step2_undo" android:visibility="gone" layout="@layout/step2_undo" />
+                <include android:id="@id/step2_doing" android:visibility="gone" layout="@layout/step2_doing" />
+                <include android:id="@id/step2_ordernumerror" android:visibility="gone" layout="@layout/step2_ordernumerror" />
+                <include android:id="@id/step2_timeout" android:visibility="gone" layout="@layout/step2_timeout" />
+                <include android:id="@id/step2_success" layout="@layout/step2_success" />
+            </RelativeLayout>
+            <View android:background="@color/g" android:layout_width="2.0dip" android:layout_height="8.0dip" android:layout_marginLeft="17.0dip" />
+            <RelativeLayout android:id="@id/layout_mytrydetailactivity_step3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/step3_undo" android:visibility="gone" layout="@layout/step3_undo" />
+                <include android:id="@id/step3_doing" android:visibility="gone" layout="@layout/step3_doing" />
+                <include android:id="@id/step3_success" android:visibility="gone" layout="@layout/step3_success" />
+                <include android:id="@id/step3_edit" layout="@layout/step3_edit" />
+            </RelativeLayout>
+            <View android:background="@color/g" android:layout_width="2.0dip" android:layout_height="8.0dip" android:layout_marginLeft="17.0dip" />
+            <RelativeLayout android:id="@id/layout_mytrydetailactivity_step4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/step4_undo" android:visibility="gone" layout="@layout/step4_undo" />
+                <include android:id="@id/step4_doing" android:visibility="gone" layout="@layout/step4_doing" />
+                <include android:id="@id/step4_appeal" android:visibility="gone" layout="@layout/step4_appeal" />
+                <include android:id="@id/step4_appealfail" android:visibility="gone" layout="@layout/step4_appealfail" />
+                <include android:id="@id/step4_success" layout="@layout/step4_success" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="30.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="流程不清晰？" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/sel_tv_1" android:id="@id/tv_mytrydetailactivity_tryprocess" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="请查看试用流程..." />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

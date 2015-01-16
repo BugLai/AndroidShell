@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relative_main3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_step3" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/srjx" android:layout_width="wrap_content" android:layout_height="54.0dip" android:src="@drawable/img_srjx" android:layout_centerHorizontal="true" />
+        <TextView android:id="@id/birthday" android:background="@drawable/birthday_tv_selector" android:layout_width="200.0dip" android:layout_height="40.0dip" android:layout_marginTop="32.0dip" android:text="你的生日是？" style="@style/brithday_tv_style" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <DatePicker android:id="@id/datepicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:calendarViewShown="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <ImageView android:id="@id/dot_left_3" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/img_indicator_nor" android:layout_toLeftOf="@id/dot_center_3" />
+            <ImageView android:id="@id/dot_center_3" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="4.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/img_indicator_nor" />
+            <ImageView android:id="@id/dot_right_3" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/img_indicator_sel" />
+        </LinearLayout>
+        <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/bt_next_step3" android:background="@drawable/sign_bt1" android:layout_width="160.0dip" android:layout_height="40.0dip" android:text="完成" />
+    </LinearLayout>
+</RelativeLayout>

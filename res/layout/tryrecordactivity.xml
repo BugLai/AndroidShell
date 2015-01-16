@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_titlebar" layout="@layout/common_titlebar_left_activity" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_titlebar">
+        <RadioGroup android:orientation="horizontal" android:id="@id/radiogroup" android:background="@drawable/bg_homefragment_radiogroup" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <RadioButton android:textSize="14.0sp" android:textColor="@drawable/textcolorstyle" android:gravity="center" android:id="@id/rb_tryrecordactivity_first" android:background="@drawable/radiobuttonstyle" android:layout_width="wrap_content" android:layout_height="48.0dip" android:checked="true" android:button="@null" android:text="试用完成" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center" android:layout_width="1.0dip" android:layout_height="wrap_content" android:src="@drawable/line2" android:scaleType="fitXY" android:contentDescription="@string/app_name" />
+            <RadioButton android:textSize="14.0sp" android:textColor="@drawable/textcolorstyle" android:gravity="center" android:id="@id/rb_tryrecordactivity_second" android:background="@drawable/radiobuttonstyle" android:layout_width="wrap_content" android:layout_height="48.0dip" android:button="@null" android:text="申请失败" android:layout_weight="1.0" />
+        </RadioGroup>
+        <android.support.v4.view.ViewPager android:id="@id/vp_tryrecordactivity" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/radiogroup" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</RelativeLayout>

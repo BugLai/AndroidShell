@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_commontitlebarfragment_titleicon" android:background="@drawable/bg_pressed" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/ic_drawer" android:layout_centerVertical="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/a" android:id="@id/tv_commontitlebarfragment_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="标题" android:layout_toRightOf="@id/iv_commontitlebarfragment_titleicon" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_commontitlebarfragment_msg" android:background="@drawable/bg_pressed" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/ic_msg" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="8.0sp" android:textColor="@*android:color/white" android:gravity="center" android:id="@id/tv_commontitlebarfragment_msg" android:background="@drawable/red_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" />
+    <View android:background="@color/g" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>
