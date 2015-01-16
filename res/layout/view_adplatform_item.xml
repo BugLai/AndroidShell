@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/regButton" android:layout_width="fill_parent" android:layout_height="56.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="10.0dip" android:src="@drawable/ic_checkin" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-    <ImageView android:id="@id/nextArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_go" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    <TextView android:textSize="16.0sp" android:id="@id/videoState" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/nextArrow" android:layout_centerVertical="true" />
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0sp" android:textColor="@color/general_color" android:ellipsize="end" android:gravity="bottom" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/videoState" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" />
-</RelativeLayout>

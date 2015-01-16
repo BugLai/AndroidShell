@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/tabs_content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.astuetz.PagerSlidingTabStrip android:id="@id/tabs" android:background="@drawable/background_tab" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentTop="true" app:pstsShouldExpand="true" />
-    <net.ym.overseas.cashbox.view.widget.ViewPagerCompat android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tabs" />
-    <View android:id="@id/shadow" android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_below="@id/tabs" />
-</RelativeLayout>

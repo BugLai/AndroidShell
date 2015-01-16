@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/placeHolder" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/splash_loading_icon" android:layout_centerInParent="true" />
-    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/splash_loading_icon" android:layout_above="@id/placeHolder" android:layout_alignRight="@id/placeHolder" />
-    <TextView android:textSize="18.0sp" android:textColor="#ff736768" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/splash_loading_title" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
-    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/splash_loading_bottom" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
-    <TextView android:textColor="#7fffffff" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:text="@string/splash_loading_version" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
-</RelativeLayout>

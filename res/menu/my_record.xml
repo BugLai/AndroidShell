@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/pointsItem" android:title="points" android:showAsAction="always" android:actionLayout="@layout/points_item_show_in_actionbar" />
-</menu>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/offerIcon" android:layout_width="60.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_woobi" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-    <View android:id="@id/view" android:background="#ffbababa" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_toRightOf="@id/offerIcon" android:layout_centerVertical="true" />
-    <TextView android:textSize="@dimen/offer_item_text_size" android:textColor="@color/offer_item_title_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="@dimen/offer_item_sub_layout_padding" android:singleLine="true" android:layout_toRightOf="@id/view" android:layout_centerVertical="true" />
-</merge>
