@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titleContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#ff999999" android:layout_width="5.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff999999" android:gravity="center_vertical" android:id="@id/adGridViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <net.ym.overseas.cashbox.view.widget.OfferGridView android:id="@id/adGridView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:horizontalSpacing="5.0dip" android:verticalSpacing="5.0dip" android:numColumns="2" />
+</merge>

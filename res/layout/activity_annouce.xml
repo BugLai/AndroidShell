@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/tabs_content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/announceList" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/noAnnounceLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_reward_error" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/general_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/no_announcement" />
+        <Button android:enabled="false" android:textColor="#ffffffff" android:orientation="horizontal" android:id="@id/toEarnTextView" android:background="@drawable/bg_refresh_button" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/daily_to_earn" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/failLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_network_error" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/general_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/error_load_page" />
+        <Button android:textColor="#ffffffff" android:orientation="horizontal" android:id="@id/refreshTextView" android:background="@drawable/bg_refresh_button" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/error_refresh" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loadingLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_loading" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="10.0dip">
+            <TextView android:textSize="22.0sp" android:textColor="#ff1a0406" android:gravity="center_vertical" android:id="@id/loadingText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:text="@string/loading_string_1" />
+            <ImageView android:id="@id/animationImageView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/loading_image_animation" android:scaleType="centerInside" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/shadow" android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentTop="true" />
+</RelativeLayout>

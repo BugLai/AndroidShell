@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/about_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="#fff82939" android:layout_gravity="center_vertical" android:id="@id/introduce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/introduce" />
+        <net.ym.overseas.cashbox.view.widget.CompatibleTextView android:id="@id/introduceDetail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sign_in_introduce" android:layout_below="@id/introduce" app:text_size="18.0sp" app:text_color="#ff545454" app:text_style="pointStyle" />
+        <View android:id="@id/borderView" android:background="#ffccc8c9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/introduceDetail" />
+        <TextView android:textSize="16.0sp" android:textColor="#fff82939" android:layout_gravity="center_vertical" android:id="@id/signTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/sign_in_title" android:layout_below="@id/borderView" />
+        <LinearLayout android:orientation="vertical" android:id="@id/signContainer" android:background="@drawable/bg_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/signTitle">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_sign_in_top" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/ic_sign_check" />
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sign_in_to_earn_point" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#ff1a0406" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/signTime" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:text="" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip">
+                <net.ym.overseas.cashbox.view.widget.CircleTextView android:textSize="18.0sp" android:textColor="#ff736768" android:gravity="center" android:id="@id/day1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="5" android:layout_weight="1.0" />
+                <net.ym.overseas.cashbox.view.widget.CircleTextView android:textSize="18.0sp" android:textColor="#ff736768" android:gravity="center" android:id="@id/day2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="10" android:layout_weight="1.0" />
+                <net.ym.overseas.cashbox.view.widget.CircleTextView android:textSize="18.0sp" android:textColor="#ff736768" android:gravity="center" android:id="@id/day3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="15" android:layout_weight="1.0" />
+                <net.ym.overseas.cashbox.view.widget.CircleTextView android:textSize="18.0sp" android:textColor="#ff736768" android:gravity="center" android:id="@id/day4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="20" android:layout_weight="1.0" />
+                <net.ym.overseas.cashbox.view.widget.CircleTextView android:textSize="18.0sp" android:textColor="#ff736768" android:gravity="center" android:id="@id/day5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="25" android:layout_weight="1.0" />
+                <net.ym.overseas.cashbox.view.widget.CircleTextView android:textSize="18.0sp" android:textColor="#ff736768" android:gravity="center" android:id="@id/day6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="30" android:layout_weight="1.0" />
+            </LinearLayout>
+            <Button android:textColor="@drawable/color_sign_in_button" android:id="@id/signButton" android:background="@drawable/bg_sign_button" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="15.0dip" android:text="@string/sign_in_query" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/failLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/signTitle">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_network_error" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/general_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/error_load_page" />
+            <Button android:textColor="#ffffffff" android:orientation="horizontal" android:id="@id/refreshTextView" android:background="@drawable/bg_refresh_button" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/error_refresh" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/shadow" android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentTop="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_dialog" android:layout_width="270.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_title_text_size" android:textColor="@color/dialog_title_text_color" android:gravity="center_vertical" android:id="@id/dialogTitle" android:padding="@dimen/dialog_title_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <net.ym.overseas.cashbox.view.widget.CustomEditTextView android:textColor="@color/general_color" android:id="@id/input" android:background="#00000000" android:padding="4.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:textCursorDrawable="@null">
+            <requestFocus />
+        </net.ym.overseas.cashbox.view.widget.CustomEditTextView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="270.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textColor="@drawable/color_text_general_dialog_button" android:gravity="center" android:id="@id/leftButton" android:background="@drawable/bg_dialog_left_button" android:layout_width="0.0dip" android:layout_height="@dimen/dialog_button_height" android:layout_margin="0.0dip" android:text="@string/text_button_dialog_cancel" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:textColor="@drawable/color_text_general_dialog_button" android:gravity="center" android:id="@id/rightButton" android:background="@drawable/bg_dialog_right_button" android:layout_width="0.0dip" android:layout_height="@dimen/dialog_button_height" android:layout_margin="0.0dip" android:text="@string/text_button_dialog_ok" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/youmiAdMetaList" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/noAdLayout" android:background="@color/tabs_content_bg" android:visibility="gone" layout="@layout/metaad_empty_view" />
+        <include android:id="@id/failLayout" android:background="@color/tabs_content_bg" android:visibility="gone" layout="@layout/error_to_refresh_view" />
+        <include android:id="@id/loadingLayout" android:visibility="gone" layout="@layout/metaad_loading_view" />
+    </LinearLayout>
+    <View android:id="@id/shadow" android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentTop="true" />
+</RelativeLayout>

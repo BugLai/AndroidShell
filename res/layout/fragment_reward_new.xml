@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/offer_parent_layout_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offer_item_parent_layout_margin">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bg_offer_list_icon" android:scaleType="fitXY" />
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reward_game" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/gameCard" android:background="@drawable/bg_reward_center" android:paddingLeft="@dimen/offer_item_sub_layout_padding" android:paddingTop="0.0dip" android:paddingRight="@dimen/offer_item_sub_layout_padding" android:paddingBottom="0.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+                    <TextView android:textSize="@dimen/offer_item_text_size" android:textColor="@color/offer_item_title_color" android:layout_gravity="center_vertical" android:id="@id/gameCardText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offer_item_text_view_margin_top" android:layout_marginBottom="@dimen/offer_item_text_view_margin_bottom" android:text="@string/game_card" android:layout_weight="1.0" />
+                    <ImageView android:gravity="right" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_next" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offer_item_parent_layout_margin">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bg_offer_list_icon" android:scaleType="fitXY" />
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reward_card" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/coupons" android:background="@drawable/bg_reward_center" android:paddingLeft="@dimen/offer_item_sub_layout_padding" android:paddingTop="0.0dip" android:paddingRight="@dimen/offer_item_sub_layout_padding" android:paddingBottom="0.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+                    <TextView android:textSize="@dimen/offer_item_text_size" android:textColor="@color/offer_item_title_color" android:layout_gravity="center_vertical" android:id="@id/couponsText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offer_item_text_view_margin_top" android:layout_marginBottom="@dimen/offer_item_text_view_margin_bottom" android:text="@string/coupons" android:layout_weight="1.0" />
+                    <ImageView android:gravity="right" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_next" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/offer_item_parent_layout_margin">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/bg_offer_list_icon" android:scaleType="fitXY" />
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reward_cash" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/cashExchange" android:background="@drawable/bg_reward_center" android:paddingLeft="@dimen/offer_item_sub_layout_padding" android:paddingTop="0.0dip" android:paddingRight="@dimen/offer_item_sub_layout_padding" android:paddingBottom="0.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+                    <TextView android:textSize="@dimen/offer_item_text_size" android:textColor="@color/offer_item_title_color" android:layout_gravity="center_vertical" android:id="@id/cashExchangeText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/offer_item_text_view_margin_top" android:layout_marginBottom="@dimen/offer_item_text_view_margin_bottom" android:text="@string/cash_exchange" android:layout_weight="1.0" />
+                    <ImageView android:gravity="right" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_next" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

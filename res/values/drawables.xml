@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="app_detail_dialog_cancel">#ffababab</item>
+    <item type="drawable" name="com_facebook_picker_default_separator_color">#33464c59</item>
+    <item type="drawable" name="dialog_button_text_color_no_pressed">#ff736768</item>
+    <item type="drawable" name="dialog_button_text_color_pressed">#ffffffff</item>
+    <item type="drawable" name="feedback_popup_click_color">#ffababab</item>
+    <item type="drawable" name="sign_in_button_text_color_normal">#ffffffff</item>
+    <item type="drawable" name="sign_in_button_text_color_press">#ff6e6b6b</item>
+</resources>

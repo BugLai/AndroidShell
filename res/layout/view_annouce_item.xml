@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/hot" android:background="#00000000" android:clickable="false" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="10.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:src="@drawable/ic_hot" />
+        <TextView android:textSize="16.0sp" android:textColor="#fff82939" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hot_activation" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="#ff736768" android:id="@id/history" android:background="#00000000" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/history_activation" />
+    <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:background="@drawable/bg_announce_item_view" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:ellipsize="middle" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="10.0dip" android:singleLine="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <net.ym.overseas.cashbox.view.widget.CompatibleTextView android:id="@id/content" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:text_size="14.0sp" />
+        </LinearLayout>
+        <TextView android:textColor="#ff736768" android:gravity="end" android:id="@id/time" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

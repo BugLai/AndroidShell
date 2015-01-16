@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0sp" android:textColor="@color/general_color" android:ellipsize="marquee" android:gravity="center" android:id="@*android:id/text1" android:background="@drawable/bg_spinner_dropdown" android:layout_width="fill_parent" android:layout_height="50.0dip" android:singleLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

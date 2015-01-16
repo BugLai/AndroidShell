@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg_app_detail_linear_layout" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/appImage" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/ic_app" />
+        <ImageView android:layout_gravity="center" android:id="@id/cancel" android:background="@drawable/bg_app_detail_cancel" android:clickable="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_cancel" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_toLeftOf="@id/cancel" android:layout_toRightOf="@id/appImage" android:layout_alignTop="@id/appImage" android:layout_alignBottom="@id/appImage">
+            <TextView android:textSize="18.0sp" android:textColor="#ffdb462e" android:gravity="bottom" android:id="@id/appTitle" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_weight="1.4" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/appSource" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/appImage">
+            <TextView android:textSize="16.0sp" android:textColor="@color/general_color" android:id="@id/appDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="6" />
+            <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/doButton" android:background="@drawable/bg_app_detail_do_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

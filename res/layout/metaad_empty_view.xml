@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/noAdLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_reward_error" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/general_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/daily_no_ads" />
+    <Button android:textColor="#ffffffff" android:orientation="horizontal" android:id="@id/toEarnTextView" android:background="@drawable/bg_refresh_button" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/daily_to_earn" />
+</LinearLayout>

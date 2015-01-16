@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/tabs_content_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@*android:color/white" android:id="@id/signOut" android:background="@drawable/bg_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/title_sign_out" android:layout_alignParentBottom="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/signOut">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/baseInfo" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="#fff82939" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/base_accout_info" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/accountLayout" android:background="@drawable/bg_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/baseInfo">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/account_item_height">
+                    <TextView android:textSize="@dimen/account_item_text_size" android:textColor="@color/account_normal_text_color" android:gravity="right|center" android:padding="@dimen/account_item_padding" android:layout_width="110.0dip" android:layout_height="fill_parent" android:text="@string/title_my_account" />
+                    <TextView android:textSize="@dimen/account_item_text_size" android:textColor="#ff1a0406" android:gravity="center" android:id="@id/myAccount" android:padding="@dimen/account_item_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:layout_gravity="center" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_next" />
+                </LinearLayout>
+                <View android:background="@color/account_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/account_item_height">
+                    <TextView android:textSize="@dimen/account_item_text_size" android:textColor="@color/account_normal_text_color" android:gravity="right|center" android:padding="@dimen/account_item_padding" android:layout_width="110.0dip" android:layout_height="fill_parent" android:text="@string/title_my_alipay" />
+                    <TextView android:textSize="@dimen/account_item_text_size" android:textColor="#ff1a0406" android:gravity="center" android:id="@id/myAlipay" android:padding="@dimen/account_item_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="" android:layout_weight="1.0" />
+                    <ImageView android:layout_gravity="center" android:id="@id/modifyAlipay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_next" />
+                </LinearLayout>
+                <View android:background="@color/account_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/account_item_height">
+                    <TextView android:textSize="@dimen/account_item_text_size" android:textColor="@color/account_normal_text_color" android:gravity="right|center" android:padding="@dimen/account_item_padding" android:layout_width="110.0dip" android:layout_height="fill_parent" android:text="@string/title_my_paypal" />
+                    <TextView android:textSize="@dimen/account_item_text_size" android:textColor="#ff1a0406" android:gravity="center" android:id="@id/myPaypal" android:padding="@dimen/account_item_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="" android:layout_weight="1.0" />
+                    <ImageView android:layout_gravity="center" android:id="@id/modifyPaypal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_next" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/tenInfo" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_below="@id/accountLayout">
+                <TextView android:textSize="14.0sp" android:textColor="#fff82939" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ten_earn_info" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tenLayout" android:background="@drawable/bg_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/tenInfo">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/account_item_height">
+                    <TextView android:textSize="@dimen/account_item_text_size" android:textColor="@color/account_normal_text_color" android:gravity="right|center" android:padding="@dimen/account_item_padding" android:layout_width="110.0dip" android:layout_height="fill_parent" android:text="@string/title_my_own" />
+                    <TextView android:textSize="@dimen/account_item_point_size" android:textStyle="bold" android:textColor="@color/account_point_text_color" android:gravity="center" android:id="@id/myOwnpoints" android:padding="@dimen/account_item_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="5.4万" />
+                </LinearLayout>
+                <View android:background="@color/account_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/account_item_height">
+                    <TextView android:textSize="@dimen/account_item_text_size" android:textColor="@color/account_normal_text_color" android:gravity="right|center" android:padding="@dimen/account_item_padding" android:layout_width="110.0dip" android:layout_height="fill_parent" android:text="@string/title_my_exchanged" />
+                    <TextView android:textSize="@dimen/account_item_point_size" android:textStyle="bold" android:textColor="@color/account_point_text_color" android:gravity="center" android:id="@id/myExchangedPoints" android:padding="@dimen/account_item_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="6.6万" />
+                </LinearLayout>
+                <View android:background="@color/account_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/account_item_height">
+                    <TextView android:textSize="@dimen/account_item_text_size" android:textColor="@color/account_normal_text_color" android:gravity="right|center" android:padding="@dimen/account_item_padding" android:layout_width="110.0dip" android:layout_height="fill_parent" android:text="@string/title_my_total_own" />
+                    <TextView android:textSize="@dimen/account_item_point_size" android:textStyle="bold" android:textColor="@color/account_point_text_color" android:gravity="center" android:id="@id/myTotalOwn" android:padding="@dimen/account_item_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="12万" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#fff82939" android:orientation="horizontal" android:id="@id/locationInfoText" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/my_location" android:layout_below="@id/tenLayout" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/locationLayout" android:background="@drawable/bg_list" android:layout_width="fill_parent" android:layout_height="@dimen/account_item_height" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/locationInfoText">
+                <TextView android:textSize="@dimen/account_item_text_size" android:textColor="@color/account_normal_text_color" android:gravity="right|center" android:padding="@dimen/account_item_padding" android:layout_width="110.0dip" android:layout_height="fill_parent" android:text="@string/location_belong" />
+                <TextView android:textSize="@dimen/account_item_text_size" android:textColor="#ff1a0406" android:gravity="center" android:id="@id/myLocation" android:padding="@dimen/account_item_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center" android:id="@id/modifyLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_next" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <View android:id="@id/shadow" android:background="@drawable/tab_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentTop="true" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ad_platforms">
+        <item>Fyber</item>
+        <item>Aarki</item>
+        <item>Trialpay</item>
+        <item>Metaps</item>
+    </string-array>
+    <string-array name="location">
+        <item>HONG KONG</item>
+        <item>MACAO</item>
+        <item>TAIWAN</item>
+        <item>THAILAND</item>
+        <item>INDONESIA</item>
+        <item>MALAYSIA</item>
+        <item>VIETNEM</item>
+        <item>SINGAPORE</item>
+    </string-array>
+    <string-array name="problems">
+        <item>"I can't get Cashpoints"</item>
+        <item>"I can't receive reward"</item>
+        <item>Feedback ＆ suggestions</item>
+    </string-array>
+</resources>
